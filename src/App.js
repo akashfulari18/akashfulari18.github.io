@@ -1,12 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+// import Navbar from './Components/Navbar';
+import Navbar2 from './Components/Navbar2';
+import About from './Components/pages/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hello world</h1>
-      </header>
+    <div>
+   
+        {/* <h1>hello world</h1> */}
+        {/* <Navbar /> */}
+        
+        <Navbar2/>
+      
+        {/* <About/> */}
+      
     </div>
   );
 }

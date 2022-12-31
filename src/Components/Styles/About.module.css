@@ -1,0 +1,37 @@
+.abtMain{
+    position: relative;
+    top: 4rem;
+    border:1px solid red;
+    /* background-color: red; */
+    width:100% ;
+    margin:"2rem";
+    z-index: -2;
+}
+.abtContainer{
+    border:1px solid blue;
+    width: 80%;
+    /* height: 20%; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.abtcard{
+    border:1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.abtRight{
+   text-align: center;
+}
+
+.abtRight >span{
+    font-size: 2rem;
+    font-weight: 700;
+    }
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    
+    .abtcard{
+        width: 80%;
+    }
+  }
