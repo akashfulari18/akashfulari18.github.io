@@ -1,0 +1,84 @@
+.homeContainer{
+    /* height: 100px; */
+    z-index: -1;
+    
+}
+
+.bg_image{
+    background-image:url("https://wallpaperaccess.com/full/1338362.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 1.5rem;
+    padding-top: 4.3rem;
+    padding-bottom: 4.3rem;
+    
+    position: relative;
+    z-index: -1;
+}
+.leftDesp,.rightDesp{
+    border: 1px solid red;
+    width: 45%;
+    /* height: 300px; */
+    margin: auto;
+    background-color: #000000de;
+    color: white;
+    text-align: left;
+}
+
+
+.typeWriter{
+    display: flex;
+    gap: 0.5rem;
+    color: red;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+.port{
+    color: red;
+    font-weight: 700;
+}
+
+.Hello{
+    font-size: 2rem;
+}
+.I{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.writer{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and  (max-width: 730px) {
+    .typeWriter{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        color: red;
+    } 
+ 
+    .leftDesp,.rightDesp{
+        border: 1px solid red;
+        width: 100%;
+        /* height: 300px; */
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+    .writer{
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+}

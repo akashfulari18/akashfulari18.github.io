@@ -1,18 +1,26 @@
 import './App.css';
-// import Navbar from './Components/Navbar';
-import Navbar2 from './Components/Navbar2';
+import Navbar from './Components/Navbar';
 import About from './Components/pages/About';
+import ContactMe from './Components/pages/ContactMe';
+import Home from './Components/pages/Home';
+import Projects from './Components/pages/Projects';
+import Skills from './Components/pages/Skills';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
     <div>
    
         {/* <h1>hello world</h1> */}
-        {/* <Navbar /> */}
-        
-        <Navbar2/>
+        <Navbar />
+        <Sidebar/>
+        {/* <Navbar2/> */}
       
-        {/* <About/> */}
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <ContactMe/>
       
     </div>
   );
