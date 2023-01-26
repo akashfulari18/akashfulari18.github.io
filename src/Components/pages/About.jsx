@@ -7,34 +7,26 @@ import Typewriter from "typewriter-effect";
 function About() {
   return (
     <div className={abtStyle.abtMain} id="about">
-      <Box h={900}>
-        About
+      <Box>
+    
+               <div className={abtStyle.abtMe}>
+                About <span className={abtStyle.abtme}>Me</span> 
+               </div>
         <div className={abtStyle.abtContainer}>
           <div className={abtStyle.abtcard}>
             <div className={abtStyle.abtRight}>
-              
+               
 
-              <Text fontSize="3xl" fontWeight={700}>
-                Hello There...👋
-              </Text>
+              <div className={abtStyle.abtInfo}>
+                A passionate Full Stack Developer with a proficiency in <span>React</span> , 
+                 <span> HTML</span> , <span>CSS</span>,<span> JavaScript</span> , <span> Node.js</span> ,<span> Data Structures</span> and <span> Algorithm</span>.
+                Problem solving mindset and ability to perform well in
+                collaboration. Looking forward to working as an accountable and
+                competent employee in an exciting tech company.
+              </div>
+
               <br />
-              <Text fontSize="4xl" fontWeight={700} >
-               {/* <div className={abtStyle.writer}> */}
-                 I am  
-                {/* </div> */}
-                <Typewriter color={"purple.500"}
-                options={{
-                  strings: [" Akash Fulari", " MERN Stack Developer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            
-              </Text>
-              <br />
-              <Text fontSize="2xl" fontWeight={700}>
-                An Aspiring Full Stack Web Devloper.
-              </Text>
+             
             </div>
           </div>
           <div className={abtStyle.abtcard}>

@@ -33,32 +33,26 @@
 
 }
 
-.leftMenu ul li,.btnRes{
+.leftMenu ul li{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     margin: 0 0.5rem;
 }
-
+.btnRes{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: rgba(255, 4, 4, 0.589) ;
+    margin-right: 1rem;
+    /* margin: 0 0.5rem; */
+}
 
 .leftMenu ul li:hover{
     background-color: rgb(249, 8, 8);
     color: white;
 }
 
-.btnRes{
-    background-color: rgb(249, 8, 8) ;
-}
-
-.btnRes :hover{
-    /* background-color: rgb(254, 251, 251); */
-    color: rgb(255, 254, 254);
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    border: 1px solid rgb(251, 5, 5);
-    margin-right: 1rem;
-
-}
 .leftMenu ul {
     list-style: none;
 

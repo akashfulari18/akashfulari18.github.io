@@ -10,18 +10,13 @@ import Sidebar from './Components/Sidebar';
 function App() {
   return (
     <div>
-   
-        {/* <h1>hello world</h1> */}
-        <Navbar />
-        <Sidebar/>
-        {/* <Navbar2/> */}
-      
-        <Home/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <ContactMe/>
-      
+      <Navbar />
+      <Sidebar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <ContactMe />
     </div>
   );
 }

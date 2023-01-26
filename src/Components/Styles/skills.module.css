@@ -1,0 +1,130 @@
+.skillsContainer{
+    
+    padding: 5rem;
+    /* height:800px; */
+    background-color: rgba(6, 6, 6, 0.785);
+
+}
+
+.mTitle{
+    margin: auto;
+    font-size: 3rem;
+    width: 60%;
+    color: #FFF;
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+.Title{
+    color: red;
+    font-weight: 700;
+}
+.skillSec{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    /* height: 700px; */
+}
+
+.tech{
+    margin: auto;
+    margin-top: 2rem;
+    /* border: 1px solid blue; */
+    width: 60%;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.eachLogo{
+    width: 6rem;
+    /* margin: 1.5rem; */
+    margin: auto;
+   
+    /* border: 1px solid red; */
+    box-shadow: rgb(251, 249, 249) 0px 1px 4px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.388);
+    border-radius: 0.7rem;
+
+    
+}
+
+.eachLogo img:hover {
+     width: 120px;
+     /* background-color: #FFF; */
+}
+.eachLogo img{
+  width: 100px;
+  
+}
+
+/* gitStats */
+
+.gitStats{
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    /* margin: 10px; */
+}
+.gitStats h1{
+    color: #FFF;
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 3px solid red;
+    margin-bottom: 2rem;
+}
+.gitStats span{
+    color:red;
+    font-weight: 700;
+}
+.react-activity-calendar__count{
+    color: #FFF;
+}
+
+/* gitStreak */
+
+.statsMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;gap: 2rem;
+}
+
+.gitLang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.gitStreak{
+    border: 1px solid red;
+    margin:1rem;
+    text-align: center;
+    margin: auto;
+    /* width: 50%; */
+}
+@media screen  and (max-width: 700px) {
+
+    .tech{
+        /* width: 100%; */
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        margin-top: 3rem;
+        width: 70%;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .skillsContainer{
+        padding: 1rem;
+        
+    
+    }
+    .skillSec{
+        width: 100%;
+    }
+    .mTitle{
+        text-align: center;
+    }
+}

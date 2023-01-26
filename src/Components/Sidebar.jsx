@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { GiHamburgerMenu  } from 'react-icons/gi';
-import { HashLink as RouterLink } from 'react-router-hash-link';
 import Style from "./Styles/sidebar.module.css"
 import CloseIcon from '@mui/icons-material/Close';
+import {Link} from 'react-scroll';
+import { Tooltip } from "react-tooltip";
+
+import Resume from "../image/Akash_Fulari_Resume.pdf"
+
   function Sidebar() {
     const [side,setSide] =useState(false)
    const hanldeClickcross=()=>{
@@ -23,12 +27,16 @@ import CloseIcon from '@mui/icons-material/Close';
       <>{
         side?<div className={Style.menu} >
         <ul className={Style.ulMenu}>
-         <li><RouterLink to={"#home"}>Home</RouterLink></li>
-         <li><RouterLink to={"#about"}>About</RouterLink></li>
-         <li><RouterLink to={"#skills"}>Skills</RouterLink></li>
-         <li><RouterLink to={"#project"}>Project</RouterLink></li>
-         <li><RouterLink to={"#contact"}>Contact</RouterLink></li>
-         <button className={Style.btnRes}><RouterLink >Resume</RouterLink></button>
+          
+         <li><Link to={"home"}>Home</Link></li>
+         <li><Link to={"about"}>About</Link></li>
+         <li><Link to={"skills"}>Skills</Link></li>
+         <li><Link to={"project"}>Project</Link></li>
+         <li><Link to={"contact"}>Contact</Link></li>
+         <li id="tool" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a href={Resume}  download="Akash_Fulari_Resume">
+            Resume
+              <Tooltip anchorId="tool" />
+              </a>   </li>
         </ul>
    </div>:""
       }

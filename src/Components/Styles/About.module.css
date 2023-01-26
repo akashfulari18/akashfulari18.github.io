@@ -1,14 +1,14 @@
 .abtMain{
     position: relative;
-    top: 4rem;
-    border:1px solid red;
-    /* background-color: red; */
+    /* top: 4rem; */
+    /* border:1px solid red; */
     width:100% ;
-    margin:"2rem";
+    padding:2rem;
     z-index: -2;
+    background-color: rgba(0, 0, 0, 0.874);
 }
 .abtContainer{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     width: 80%;
     /* height: 20%; */
     margin: auto;
@@ -19,7 +19,7 @@
     padding-bottom: 5rem;
 }
 .abtcard{
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 50%;
     margin: auto;
 }
@@ -36,13 +36,12 @@
     .smallBox{
         background-color: red;
         width: 20px;
-        height: 20px;
+        /* height: 20px; */
     }
 
     .boxContainer{
         display: grid;
         grid-template-columns: repeat(1fr);
-        
         width: 1fr;
         margin: 3rem;
         align-items: center;
@@ -51,20 +50,14 @@
 
     
     .diamond {
-        
         border-radius: 10%;
         right:0;
         width: 80%;
         margin: auto;
-        /* background: linear-gradient(to bottom right, rgb(226, 198, 226),rgb(196, 217, 217)); */
-        /* transform: rotate(20deg); */
-        /* background-image: linear-gradient(to bottom right, purple,cyan); */
-        /* border: 3px solid rgb(240, 8, 240); */
         z-index: 100;
-        border: 6px solid rgba(8, 99, 247, 0.468);
+ border: 2px solid rgba(83, 50, 50, 0.594);
         padding: 0.5rem;
-        box-shadow: 2rem 2rem hwb(255 57% 10% / 0.548);
-        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        box-shadow: 2rem 2rem hwb(0 1% 0% / 0.176);
       } 
       .writer{
         display: flex;
@@ -74,7 +67,33 @@
    border-radius: 10%;
    z-index: -10;
     }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+
+    .abtInfo{
+        /* background-color: rgba(0, 0, 0, 0.37); */
+        color: #FFF;
+        font-size: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        /* padding-left: 3rem; */
+        font-weight: 500;
+    }
+    .abtInfo span{
+        font-size: 1.6rem;
+        /* font-weight: 500; */
+        color: red;
+    }
+
+    .abtme{
+        color: red;
+    font-weight: 700;
+    }
+    .abtMe{
+        color: #FFF;
+        text-align: center;
+        font-size: 3rem;
+        border-bottom: 3px solid red;
+    }
+@media screen  and (max-width: 768px) {
     
     .abtcard{
         width: 100%;
@@ -82,5 +101,11 @@
     }
     .abtRight{
         text-align: center;
+    }
+    .abtInfo{
+        padding-top: 1rem;
+    }
+    .boxContainer{
+        margin: 0;
     }
   }
