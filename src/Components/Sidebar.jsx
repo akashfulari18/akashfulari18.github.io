@@ -28,11 +28,11 @@ import Resume from "../image/Akash_Fulari_Resume.pdf"
         side?<div className={Style.menu} >
         <ul className={Style.ulMenu}>
           
-         <li><Link to={"home"}>Home</Link></li>
-         <li><Link to={"about"}>About</Link></li>
-         <li><Link to={"skills"}>Skills</Link></li>
-         <li><Link to={"project"}>Project</Link></li>
-         <li><Link to={"contact"}>Contact</Link></li>
+         <li><Link to={"home"} smooth>Home</Link></li>
+         <li><Link to={"about"} smooth>About</Link></li>
+         <li><Link to={"skills"} smooth>Skills</Link></li>
+         <li><Link to={"project"} smooth>Project</Link></li>
+         <li><Link to={"contact"} smooth>Contact</Link></li>
          <li id="tool" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a href={Resume}  download="Akash_Fulari_Resume">
             Resume
               <Tooltip anchorId="tool" />

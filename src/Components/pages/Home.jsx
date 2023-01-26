@@ -49,9 +49,11 @@ function Home() {
           </div>
           </div>
           <div className={Style.myResContainer}>
+            <a href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
            <button>
            Take a look at <span className={Style.myRes}>My Resume</span>
            </button>
+           </a>
           </div>
         </div>
 

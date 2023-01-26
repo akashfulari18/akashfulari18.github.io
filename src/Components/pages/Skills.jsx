@@ -29,14 +29,14 @@ function Skills() {
           <div className={styles.tech}>
             <div className={styles.eachLogo}>
               <img
-                id="tool"
+                id="toolhtml"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="html 5"
                 src={html5}
                 alt=""
               />
-              <Tooltip anchorId="tool" />
+              <Tooltip anchorId="toolhtml" />
             </div>
             <div className={styles.eachLogo}>
               <img

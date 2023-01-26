@@ -99,6 +99,7 @@ h1 + h1 {
 }
 .myRes{
   color: red;
+  font-weight: 700;
 }
 
 /* media Queries */
