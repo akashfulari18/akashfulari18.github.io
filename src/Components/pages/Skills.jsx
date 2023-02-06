@@ -189,7 +189,7 @@ function Skills() {
       </div>
 
       <div  className={styles.gitLang}>
-          <img id="github-top-langs" src={"https://github-readme-stats.vercel.app/api/top-langs?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
+          <img id="github-top-langs" src={"https://github-readme-stats.vercel.app/api/top-langs/?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
       </div>
       </div>
     </div>

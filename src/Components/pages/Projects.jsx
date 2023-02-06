@@ -16,7 +16,7 @@ function Projects() {
                  </div>
       <div className={styles.innerProjects}>
 
-      <div className={styles.project_card}>
+      <div  className={[styles.project_card,"project-card"]}>
           <img className={styles.projectImg} src={myntra} alt="" />
           <h2 className="project-title">Classic World </h2>
            <p className="project-description">Classic World is a clone of Myntra which is one of the largest fashion e-commerce stores in India that deals with a wide range of fashion and lifestyle products for men, women, and kids</p>
@@ -38,7 +38,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className={styles.project_card}>
+        <div class="project-card" className={[styles.project_card,"project-card"]}>
           <img className={styles.projectImg} src={project_2} alt="" />
            
            <h2 className="project-title">Two Punch Fitness </h2>
