@@ -31,11 +31,11 @@ import Resume from "../image/Akash_Fulari_Resume.pdf"
          <li><Link to={"home"} smooth>Home</Link></li>
          <li><Link to={"about"} smooth>About</Link></li>
          <li><Link to={"skills"} smooth>Skills</Link></li>
-         <li><Link to={"project"} smooth>Project</Link></li>
+         <li><Link to={"projects"} smooth>Project</Link></li>
          <li><Link to={"contact"} smooth>Contact</Link></li>
-         <li id="tool" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a href={Resume}  download="Akash_Fulari_Resume">
+         <li id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume">
             Resume
-              <Tooltip anchorId="tool" />
+              <Tooltip anchorId="resume-button-1" />
               </a>   </li>
         </ul>
    </div>:""

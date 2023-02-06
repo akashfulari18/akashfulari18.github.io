@@ -27,9 +27,9 @@ function Skills() {
           </h1>
 
           <div className={styles.tech}>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolhtml"
+                id="toolhtml" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="html 5"
@@ -38,9 +38,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolhtml" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolCss"
+                id="toolCss" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="CSS"
@@ -49,9 +49,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolCss" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="React"
+                id="React" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="React"
@@ -60,9 +60,9 @@ function Skills() {
               />
               <Tooltip anchorId="React" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolRedux"
+                id="toolRedux" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Redux"
@@ -71,9 +71,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolRedux" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolNext"
+                id="toolNext" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Next JS"
@@ -83,9 +83,9 @@ function Skills() {
               <Tooltip anchorId="toolNext" />
             </div>
 
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolJs"
+                id="toolJs" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-content="JavaScript"
                 src={javascript}
@@ -93,9 +93,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolJs" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolGit"
+                id="toolGit" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Git"
@@ -104,9 +104,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolGit" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolGa"
+                id="toolGa" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Github Actions"
@@ -115,9 +115,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolGa" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolMdb"
+                id="toolMdb" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="MongoDB"
@@ -126,9 +126,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolMdb" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolNetli"
+                id="toolNetli" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Netlify"
@@ -137,9 +137,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolNetli" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolNpm"
+                id="toolNpm" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="NPM"
@@ -148,9 +148,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolNpm" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolNode"
+                id="toolNode" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Node Js"
@@ -159,9 +159,9 @@ function Skills() {
               />
               <Tooltip anchorId="toolNode" />
             </div>
-            <div className={styles.eachLogo}>
+            <div className={styles.skills_card_img}>
               <img
-                id="toolMui"
+                id="toolMui" className="skills-card-name"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Material UI"
@@ -176,7 +176,7 @@ function Skills() {
 
       <div className={styles.gitStats}>
         <h1>Github <span>Stats</span></h1>
-        <GitHubCalendar username="akashfulari18" color={"red"} hideColorLegend 
+        <GitHubCalendar className="react-activity-calendar" username="akashfulari18" color={"red"} hideColorLegend 
         blockSize={20}
         blockMargin={6}
         />
@@ -184,12 +184,12 @@ function Skills() {
 
 <div>
       <div className={styles.statsMain}>
-          <img src={"https://streak-stats.demolab.com?user=akashfulari18&theme=dark"} alt="" />
-          <img src={"https://awesome-github-stats.azurewebsites.net/user-stats/akashfulari18?cardType=level&theme=dark"} alt="" />
+          <img  id="github-streak-stats" src={"https://streak-stats.demolab.com?user=akashfulari18&theme=dark"} alt="" />
+          <img  id="github-stats-card" src={"https://awesome-github-stats.azurewebsites.net/user-stats/akashfulari18?cardType=level&theme=dark"} alt="" />
       </div>
 
-      <div className={styles.gitLang}>
-          <img src={"https://github-readme-stats.vercel.app/api/top-langs?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
+      <div id="github-top-langs" className={styles.gitLang}>
+          <img  src={"https://github-readme-stats.vercel.app/api/top-langs?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
       </div>
       </div>
     </div>

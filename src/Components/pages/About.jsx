@@ -1,12 +1,13 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import React from "react";
 import abtStyle from "../Styles/About.module.css";
+import Style from "../Styles/home.module.css";
+
 import profile from "../../image/Profile.png";
-import Typewriter from "typewriter-effect";
 
 function About() {
   return (
-    <div className={abtStyle.abtMain} id="about">
+    <div id="about" className={abtStyle.abtMain} >
       <Box>
     
                <div className={abtStyle.abtMe}>
@@ -17,7 +18,7 @@ function About() {
             <div className={abtStyle.abtRight}>
                
 
-              <div className={abtStyle.abtInfo}>
+              <div id="user-detail-intro" className={abtStyle.abtInfo}>
                 A passionate Full Stack Developer with a proficiency in <span>React</span> , 
                  <span> HTML</span> , <span>CSS</span>,<span> JavaScript</span> , <span> Node.js</span> ,<span> Data Structures</span> and <span> Algorithm</span>.
                 Problem solving mindset and ability to perform well in
@@ -26,6 +27,13 @@ function About() {
               </div>
 
               <br />
+              <div id="resume-link-2"  className={Style.myResContainer}>
+            <a href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
+           <button id="resume-button-2">
+           Take a look at <span className={Style.myRes}>My Resume</span>
+           </button>
+           </a>
+          </div>
              
             </div>
           </div>

@@ -10,17 +10,17 @@ import redux from "../../image/redux.png"
 
 function Projects() {
   return (
-    <div id="project" className={styles.projectContainer}>
+    <div id="projects" className={styles.projectContainer}>
                  <div className={styles.projTitle}>
                   Here is some of <span className={styles.projTitleSpan}>My work..</span>
                  </div>
       <div className={styles.innerProjects}>
 
-      <div className={styles.eachProject}>
+      <div className={styles.project_card}>
           <img className={styles.projectImg} src={myntra} alt="" />
-          <h2>Classic World </h2>
-           <p>Classic World is a clone of Myntra which is one of the largest fashion e-commerce stores in India that deals with a wide range of fashion and lifestyle products for men, women, and kids</p>
-           <Box display={"flex"} gap="0.5rem" justifyContent={"left"} alignContent="center" mb="1rem">
+          <h2 className="project-title">Classic World </h2>
+           <p className="project-description">Classic World is a clone of Myntra which is one of the largest fashion e-commerce stores in India that deals with a wide range of fashion and lifestyle products for men, women, and kids</p>
+           <Box className="project-tech-stack" display={"flex"} gap="0.5rem" justifyContent={"left"} alignContent="center" mb="1rem">
               <div><FaReact size={"2rem"} color="blue"/></div>
               <div><img src={redux} alt="" width={"35px"}/></div>
               <div><FaHtml5 size={"2rem"} color="orange"/></div>
@@ -30,21 +30,21 @@ function Projects() {
             </Box>
           <div className={styles.btnDiv}>
             {" "}
-            <a href="https://classicworld.vercel.app/" target={"_blank"}>
+            <a className="project-github-link" href="https://classicworld.vercel.app/" target={"_blank"}>
             <button className={styles.btn}>Demo</button>
             </a>
-            <a href="https://github.com/sapna1309/illegal-quiver-3898" target={"_blank"}>
+            <a className="project-deployed-link" href="https://github.com/sapna1309/illegal-quiver-3898" target={"_blank"}>
             <button className={styles.btn}>Github</button>
             </a>
           </div>
         </div>
-        <div className={styles.eachProject}>
+        <div className={styles.project_card}>
           <img className={styles.projectImg} src={project_2} alt="" />
            
-           <h2>Two Punch Fitness </h2>
-           <p>The website had been created to target fitness enthusiasts to explore fitness services and products.</p>
+           <h2 className="project-title">Two Punch Fitness </h2>
+           <p className="project-description">The website had been created to target fitness enthusiasts to explore fitness services and products.</p>
 
-           <Box display={"flex"} gap="0.5rem" justifyContent={"left"} alignContent="center" mb="1rem">
+           <Box className="project-tech-stack" display={"flex"} gap="0.5rem" justifyContent={"left"} alignContent="center" mb="1rem">
               <div><FaHtml5 size={"2rem"} color="orange"/></div>
               <div><FaCss3 size={"2rem"} color="blue"/></div>
               <div><FaJs size={"2rem"} color="yellow"/></div>
@@ -53,11 +53,11 @@ function Projects() {
 
           <div className={styles.btnDiv}>
             {" "}
-            <a href={"https://admirable-raindrop-842e4c.netlify.app/"} target="_blank">
+            <a className="project-github-link" href={"https://admirable-raindrop-842e4c.netlify.app/"} target="_blank">
             <button className={styles.btn}>Demo</button>
             </a>
 
-            <a href={"https://github.com/rajkumar-cmd/Two-Punch-Fitness-Website/tree/main"} target="_blank">
+            <a className="project-github-link" href={"https://github.com/rajkumar-cmd/Two-Punch-Fitness-Website/tree/main"} target="_blank">
             <button className={styles.btn}>Github</button>
             </a>
           </div>

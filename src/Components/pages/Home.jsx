@@ -8,7 +8,6 @@ import linkedin from "../../image/linkedin.png";
 
 const linked_inLink = "https://www.linkedin.com/in/akash-fulari-b57848190/";
 const gitLink = "https://github.com/akashfulari18";
-const gmailLink="mailto:fulariakash007@gmail.com"
 function Home() {
  
   
@@ -22,7 +21,7 @@ function Home() {
           </h1>
           <div className={Style.typeWriter}>
             <div className={Style.I}> I am</div>
-            <div className={Style.writer}>
+            <div id="user-detail-name" className={Style.writer}>
               <Typewriter
                 color={"purple.500"}
                 options={{
@@ -33,24 +32,24 @@ function Home() {
               />
             </div>
           </div>
-          <div className={Style.connect}>
+          <div id="contact-linkedin" className={Style.connect}>
           <a href={linked_inLink} rel="noreferrer" target="_blank" >
             <img src={linkedin} alt="" />
           </a>
 
-          <div>
+          <div id="contact-email">
             <a href="mailto:fulariakash007@gmail.com" rel="noreferrer" target="_blank" ><img src={gmail} alt="" /></a>
             
           </div>
-          <div>
+          <div id="contact-github">
             <a href={gitLink} rel="noreferrer" target="_blank" >
             <img src={github} alt="" />
             </a>
           </div>
           </div>
-          <div className={Style.myResContainer}>
+          <div id="resume-link-2"  className={Style.myResContainer}>
             <a href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
-           <button>
+           <button id="resume-button-2">
            Take a look at <span className={Style.myRes}>My Resume</span>
            </button>
            </a>
@@ -58,7 +57,7 @@ function Home() {
         </div>
 
         <div className={Style.rightDesp}>
-          <img src={coding} alt="" />
+          <img className="home-img" src={coding} alt="" />
         </div>
 
         
