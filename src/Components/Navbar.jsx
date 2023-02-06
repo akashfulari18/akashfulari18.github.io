@@ -21,7 +21,8 @@ export default function Navbar() {
               <li><Link to="skills" smooth>Skills</Link></li>
               <li><Link to="projects" smooth>Project</Link></li>
               <li><Link to="contact" smooth>Contact</Link></li>
-              <li id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume">
+              <li id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" 
+              target={"_blank"} rel="noreferrer">
               <DownloadIcon/> 
               <Tooltip anchorId="resume-button-1" />
               </a>   </li>

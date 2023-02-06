@@ -47,8 +47,8 @@ function Home() {
             </a>
           </div>
           </div>
-          <div id="resume-link-2"  className={Style.myResContainer}>
-            <a href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
+          <div  className={Style.myResContainer}>
+            <a id="resume-link-2" href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
            <button id="resume-button-2">
            Take a look at <span className={Style.myRes}>My Resume</span>
            </button>

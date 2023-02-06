@@ -184,12 +184,12 @@ function Skills() {
 
 <div>
       <div className={styles.statsMain}>
-          <img  id="github-streak-stats" src={"https://streak-stats.demolab.com?user=akashfulari18&theme=dark"} alt="" />
-          <img  id="github-stats-card" src={"https://awesome-github-stats.azurewebsites.net/user-stats/akashfulari18?cardType=level&theme=dark"} alt="" />
+          <img  id="github-streak-stats" src={"https://github-readme-streak-stats.herokuapp.com?user=akashfulari18&theme=dark"} alt="" />
+          <img  id="github-stats-card" src={"https://github-readme-stats.vercel.app/api?username=akashfulari18&cardType=level&theme=dark"} alt="" />
       </div>
 
-      <div id="github-top-langs" className={styles.gitLang}>
-          <img  src={"https://github-readme-stats.vercel.app/api/top-langs?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
+      <div  className={styles.gitLang}>
+          <img id="github-top-langs" src={"https://github-readme-stats.vercel.app/api/top-langs?username=akashfulari18&show_icons=true&locale=en&layout=compact&theme=dark"} alt=""/>
       </div>
       </div>
     </div>
