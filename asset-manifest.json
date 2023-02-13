@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e38ea10.css",
-    "main.js": "/static/js/main.6b75d6b0.js",
+    "main.css": "/static/css/main.a9e2fe2d.css",
+    "main.js": "/static/js/main.c0b71b57.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindMeal_project.png": "/static/media/kindMeal_project.d43eac366d324c1d0219.png",
     "static/media/myntra.png": "/static/media/myntra.8cafa6d4e8e8b6addb17.png",
@@ -9,6 +9,7 @@
     "static/media/Coding.gif": "/static/media/Coding.0530e981ddafd166dbe5.gif",
     "static/media/Profile.png": "/static/media/Profile.f38e347657fb9dc5601a.png",
     "static/media/Akash_Fulari_Resume.pdf": "/static/media/Akash_Fulari_Resume.27d52872e8772ec28244.pdf",
+    "static/media/chakra-ui.png": "/static/media/chakra-ui.e577f940aee928fafc90.png",
     "static/media/linkedin.png": "/static/media/linkedin.5d1ddeaf918afefc130c.png",
     "static/media/address.png": "/static/media/address.448afbc6ea3fcbdd4e8b.png",
     "static/media/github.png": "/static/media/github.fcf90be5a6dc8bbe13ed.png",
@@ -18,12 +19,12 @@
     "static/media/netlify.svg": "/static/media/netlify.16fa7138d5f04b33e5353a2321fa5e6d.svg",
     "static/media/githubactions.svg": "/static/media/githubactions.8932d7dc447994b3af9c58da8670ed5f.svg",
     "index.html": "/index.html",
-    "main.4e38ea10.css.map": "/static/css/main.4e38ea10.css.map",
-    "main.6b75d6b0.js.map": "/static/js/main.6b75d6b0.js.map",
+    "main.a9e2fe2d.css.map": "/static/css/main.a9e2fe2d.css.map",
+    "main.c0b71b57.js.map": "/static/js/main.c0b71b57.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e38ea10.css",
-    "static/js/main.6b75d6b0.js"
+    "static/css/main.a9e2fe2d.css",
+    "static/js/main.c0b71b57.js"
   ]
 }
