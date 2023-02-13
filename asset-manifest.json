@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4e38ea10.css",
-    "main.js": "/static/js/main.f475721b.js",
+    "main.js": "/static/js/main.83609603.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindMeal_project.png": "/static/media/kindMeal_project.d43eac366d324c1d0219.png",
     "static/media/myntra.png": "/static/media/myntra.8cafa6d4e8e8b6addb17.png",
@@ -19,11 +19,11 @@
     "static/media/githubactions.svg": "/static/media/githubactions.8932d7dc447994b3af9c58da8670ed5f.svg",
     "index.html": "/index.html",
     "main.4e38ea10.css.map": "/static/css/main.4e38ea10.css.map",
-    "main.f475721b.js.map": "/static/js/main.f475721b.js.map",
+    "main.83609603.js.map": "/static/js/main.83609603.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e38ea10.css",
-    "static/js/main.f475721b.js"
+    "static/js/main.83609603.js"
   ]
 }
