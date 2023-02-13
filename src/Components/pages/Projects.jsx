@@ -15,8 +15,10 @@ function Projects() {
                   Here is some of <span className={styles.projTitleSpan}>My work..</span>
                  </div>
       <div className={styles.innerProjects}>
-
-      <div  className={[styles.project_card,"project-card"]}>
+        
+       
+      <div className={styles.project_card}>
+       <Box className="project-card">
           <img className={styles.projectImg} src={myntra} alt="" />
           <h2 className="project-title">Classic World </h2>
            <p className="project-description">Classic World is a clone of Myntra which is one of the largest fashion e-commerce stores in India that deals with a wide range of fashion and lifestyle products for men, women, and kids</p>
@@ -28,17 +30,22 @@ function Projects() {
               <div><FaJs size={"2rem"} color="yellow"/></div>
               
             </Box>
+
+            
           <div className={styles.btnDiv}>
             {" "}
-            <a className="project-github-link" href="https://classicworld.vercel.app/" target={"_blank"}>
+            <a className="project-github-link" href="https://classicworld.vercel.app/" target={"_blank"} rel="noreferrer">
             <button className={styles.btn}>Demo</button>
             </a>
-            <a className="project-deployed-link" href="https://github.com/sapna1309/illegal-quiver-3898" target={"_blank"}>
+            <a className="project-deployed-link" href="https://github.com/sapna1309/illegal-quiver-3898" target={"_blank"} rel="noreferrer">
             <button className={styles.btn}>Github</button>
             </a>
           </div>
+        </Box> 
         </div>
-        <div class="project-card" className={[styles.project_card,"project-card"]}>
+
+        <div class="project-card" className={styles.project_card}>
+        <Box className="project-card">
           <img className={styles.projectImg} src={project_2} alt="" />
            
            <h2 className="project-title">Two Punch Fitness </h2>
@@ -53,14 +60,15 @@ function Projects() {
 
           <div className={styles.btnDiv}>
             {" "}
-            <a className="project-github-link" href={"https://admirable-raindrop-842e4c.netlify.app/"} target="_blank">
+            <a className="project-github-link" href={"https://admirable-raindrop-842e4c.netlify.app/"} target="_blank" rel="noreferrer">
             <button className={styles.btn}>Demo</button>
             </a>
 
-            <a className="project-github-link" href={"https://github.com/rajkumar-cmd/Two-Punch-Fitness-Website/tree/main"} target="_blank">
+            <a className="project-github-link" href={"https://github.com/rajkumar-cmd/Two-Punch-Fitness-Website/tree/main"} target="_blank" rel="noreferrer">
             <button className={styles.btn}>Github</button>
             </a>
           </div>
+        </Box>
         </div>
 
         {/* <div className={styles.eachProject}>

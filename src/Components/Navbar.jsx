@@ -16,12 +16,12 @@ export default function Navbar() {
         </div>
         <div className={Style.leftMenu} >
              <ul className={Style.ulMenu}>
-              <li><Link to="home" smooth>Home</Link></li>
-              <li><Link to="about" smooth>About</Link></li>
-              <li><Link to="skills" smooth>Skills</Link></li>
-              <li><Link to="projects" smooth>Project</Link></li>
-              <li><Link to="contact" smooth>Contact</Link></li>
-              <li id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" 
+              <li className="nav-link home"><Link to="home" smooth>Home</Link></li>
+              <li className="nav-link about"><Link to="about" smooth>About</Link></li>
+              <li className="nav-link skills"><Link to="skills" smooth>Skills</Link></li>
+              <li className="nav-link projects"><Link to="projects" smooth>Project</Link></li>
+              <li className="nav-link contact"><Link to="contact" smooth>Contact</Link></li>
+              <li id="resume-button-1" className={[Style.btnRes,"nav-link resume"]} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" 
               target={"_blank"} rel="noreferrer">
               <DownloadIcon/> 
               <Tooltip anchorId="resume-button-1" />
