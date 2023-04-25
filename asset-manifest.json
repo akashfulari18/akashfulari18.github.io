@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9e2fe2d.css",
-    "main.js": "/static/js/main.f674d9c5.js",
+    "main.css": "/static/css/main.66e707c3.css",
+    "main.js": "/static/js/main.28574a2e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kindMeal_project.png": "/static/media/kindMeal_project.d43eac366d324c1d0219.png",
     "static/media/myntra.png": "/static/media/myntra.8cafa6d4e8e8b6addb17.png",
+    "static/media/project-03.png": "/static/media/project-03.c1f1bd61ffe004c8ea56.png",
     "static/media/project_2_cover_image.png": "/static/media/project_2_cover_image.497c5df85a4c468ac894.png",
     "static/media/Coding.gif": "/static/media/Coding.0530e981ddafd166dbe5.gif",
     "static/media/Profile.png": "/static/media/Profile.f38e347657fb9dc5601a.png",
@@ -18,13 +19,14 @@
     "static/media/next-js.png": "/static/media/next-js.46f2cbfba4685c2ca2cb.png",
     "static/media/netlify.svg": "/static/media/netlify.16fa7138d5f04b33e5353a2321fa5e6d.svg",
     "static/media/githubactions.svg": "/static/media/githubactions.8932d7dc447994b3af9c58da8670ed5f.svg",
+    "static/media/expressjs.svg": "/static/media/expressjs.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "index.html": "/index.html",
-    "main.a9e2fe2d.css.map": "/static/css/main.a9e2fe2d.css.map",
-    "main.f674d9c5.js.map": "/static/js/main.f674d9c5.js.map",
+    "main.66e707c3.css.map": "/static/css/main.66e707c3.css.map",
+    "main.28574a2e.js.map": "/static/js/main.28574a2e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e2fe2d.css",
-    "static/js/main.f674d9c5.js"
+    "static/css/main.66e707c3.css",
+    "static/js/main.28574a2e.js"
   ]
 }
