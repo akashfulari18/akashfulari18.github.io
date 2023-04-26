@@ -15,9 +15,10 @@ import npm from "../../image/npm.png";
 import react from "../../image/react.png";
 import next_js from "../../image/next-js.png";
 import redux from "../../image/redux.png";
+import express from "../../image/expressjs.svg";
 import GitHubCalendar from "react-github-calendar";
-
-function Skills() {
+import { Box, Image, Text } from "@chakra-ui/react";
+import { TbBrandNextjs } from "react-icons/tb";function Skills() {
   return (
     <div id="skills" className={styles.skillsContainer}>
        <div className={styles.skillSec}>
@@ -28,147 +29,189 @@ function Skills() {
 
           <div className={styles.tech}>
             <div className={styles.skills_card_img}>
-              <img
-                id="toolhtml" className="skills-card-name"
+              <Box className="skills-card">
+              <Text className="skills-card-img"></Text>
+              <Image textAlign={"center"}
+                id="toolhtml" 
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="html 5"
                 src={html5}
                 alt=""
-              />
-              <Tooltip anchorId="toolhtml" />
+                width={"100%"}
+                />
+              <Tooltip className="skills-card-name" anchorId="toolhtml" />
+                </Box>
             </div>
             <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
               <img
-                id="toolCss" className="skills-card-name"
+                id="toolCss" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="CSS"
                 src={css}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolCss" />
+              <Tooltip className="skills-card-name" anchorId="toolCss" />
             </div>
             <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
               <img
-                id="React" className="skills-card-name"
+                id="React" className="skills-card-img "
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="React"
                 src={react}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="React" />
+              <Tooltip className="skills-card-name"  anchorId="React" />
             </div>
             <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
               <img
-                id="toolRedux" className="skills-card-name"
+                id="toolRedux" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Redux"
                 src={redux}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolRedux" />
+              <Tooltip className="skills-card-name" anchorId="toolRedux" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolNext" className="skills-card-name"
+                id="toolNext" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Next JS"
                 src={next_js}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolNext" />
+             
+              <Tooltip className="skills-card-name" anchorId="toolNext" />
             </div>
 
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolJs" className="skills-card-name"
+                id="toolJs" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-content="JavaScript"
                 src={javascript}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolJs" />
+              <Tooltip className="skills-card-name" anchorId="toolJs" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolGit" className="skills-card-name"
+                id="toolGit" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Git"
                 src={git}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolGit" />
+              <Tooltip className="skills-card-name" anchorId="toolGit" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolGa" className="skills-card-name"
+                id="toolGa" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Github Actions"
                 src={githubactions}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolGa" />
+              <Tooltip className="skills-card-name" anchorId="toolGa" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolMdb" className="skills-card-name"
+                id="toolMdb" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="MongoDB"
                 src={mongodb}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolMdb" />
+              <Tooltip className="skills-card-name" anchorId="toolMdb" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolNetli" className="skills-card-name"
+                id="toolNetli" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Netlify"
                 src={netlify}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolNetli" />
+              <Tooltip className="skills-card-name" anchorId="toolNetli" />
             </div>
             <div className={styles.skills_card_img}>
+            <Box className="skills-card"></Box>
               <img
-                id="toolNpm" className="skills-card-name"
+                id="toolNpm" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="NPM"
                 src={npm}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolNpm" />
+              <Tooltip className="skills-card-name" anchorId="toolNpm" />
             </div>
             <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
               <img
-                id="toolNode" className="skills-card-name"
+                id="toolNode" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Node Js"
                 src={node}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolNode" />
+              <Tooltip className="skills-card-name" anchorId="toolNode" />
             </div>
             <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
               <img
-                id="toolMui" className="skills-card-name"
+                id="toolMui" className="skills-card-img"
                 data-tooltip-variant="light"
                 data-tooltip-float="true"
                 data-tooltip-content="Material UI"
                 src={material_ui}
+                width={"100%"}
                 alt=""
               />
-              <Tooltip anchorId="toolMui" />
+              <Tooltip className="skills-card-name" anchorId="toolMui" />
+            </div>
+            <div className={styles.skills_card_img}>
+              <Box className="skills-card"></Box>
+              <img
+                id="express" className="skills-card-img"
+                data-tooltip-variant="light"
+                data-tooltip-float="true"
+                data-tooltip-content="Express js"
+                src={express}
+                width={"100%"}
+                alt=""
+              />
+              <Tooltip className="skills-card-name" anchorId="express" />
             </div>
           </div>
         </div>

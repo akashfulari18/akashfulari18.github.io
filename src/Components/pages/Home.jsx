@@ -5,6 +5,7 @@ import coding from "../../image/Coding.gif";
 import github from "../../image/github.png";
 import gmail from "../../image/gmail.png";
 import linkedin from "../../image/linkedin.png";
+import Resume from "../../image/Akash_Fulari_Resume.pdf"
 
 const linked_inLink = "https://www.linkedin.com/in/akash-fulari-b57848190/";
 const gitLink = "https://github.com/akashfulari18";
@@ -48,8 +49,8 @@ function Home() {
           </div>
           </div>
           <div  className={Style.myResContainer}>
-            <a id="resume-link-2" href="https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link">
-           <button id="resume-button-2">
+            <a id="resume-link-2" href={Resume} download="Akash_Fulari_Resume">
+           <button onClick={()=>{window.open("https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link","_blank","noreferrer")}} id="resume-button-2">
            Take a look at <span className={Style.myRes}>My Resume</span>
            </button>
            </a>

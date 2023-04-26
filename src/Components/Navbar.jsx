@@ -21,32 +21,14 @@ export default function Navbar() {
               <li className="nav-link skills"><Link to="skills" smooth>Skills</Link></li>
               <li className="nav-link projects"><Link to="projects" smooth>Project</Link></li>
               <li className="nav-link contact"><Link to="contact" smooth>Contact</Link></li>
-              <li id="resume-button-1" className={[Style.btnRes,"nav-link resume"]} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" 
-              target={"_blank"} rel="noreferrer">
-              <DownloadIcon/> 
-              <Tooltip anchorId="resume-button-1" />
+              <li onClick={()=>{window.open("https://drive.google.com/file/d/1xaMuGhFWKyH24monpvWCGU3Kc16e2Kai/view?usp=share_link","_black","norefferrer")}} id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" 
+             >Resume
+              {/* <DownloadIcon/>  */}
+              {/* <Tooltip className="nav-link resume" anchorId="resume-button-1" /> */}
               </a>   </li>
              
              </ul>
         </div>
-{/* 
-        <div className={styles.eachLogo}>
-              <img
-                id="tool"
-                data-tooltip-variant="light"
-                data-tooltip-float="true"
-                data-tooltip-content="html 5"
-                src={html5}
-                alt=""
-              />
-              <Tooltip anchorId="tool" />
-            </div> */}
-       
-
-
-        
-
-        {/* <AllRoutes /> */}
       </div>
 
       

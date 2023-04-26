@@ -33,7 +33,7 @@ import Resume from "../image/Akash_Fulari_Resume.pdf"
          <li><Link to={"skills"} smooth>Skills</Link></li>
          <li><Link to={"projects"} smooth>Project</Link></li>
          <li><Link to={"contact"} smooth>Contact</Link></li>
-         <li id="resume-button-1" className={Style.btnRes} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" target={"_blank"} rel="noreferrer">
+         <li id="resume-button-1" className={[Style.btnRes,"nav-link.resume"]} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={Resume}  download="Akash_Fulari_Resume" target={"_blank"} rel="noreferrer">
             Resume
               <Tooltip anchorId="resume-button-1" />
               </a>   </li>
